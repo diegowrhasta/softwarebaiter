@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="People">
+        <menu>
+        <item
+            android:id="@+id/nav_crear_persona"
+            android:icon="@drawable/ic_add"
+            android:title="Crear"
+            />
+        <item
+            android:id="@+id/nav_mostrar_personas"
+            android:icon="@drawable/ic_list"
+            android:title="Mostrar Todos" />
+        <item
+            android:id="@+id/nav_buscar_persona"
+            android:icon="@drawable/ic_find"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_actualizar_persona"
+            android:icon="@drawable/ic_update"
+            android:title="Actualizar" />
+        <item
+            android:id="@+id/nav_eliminar_persona"
+            android:icon="@drawable/ic_delete"
+            android:title="Eliminar" />
+        </menu>
+    </item>
+
+
+    <item android:title="Users">
+    <menu>
+        <item
+            android:id="@+id/nav_crear_usuario"
+            android:icon="@drawable/ic_add"
+            android:title="Crear" />
+        <item
+            android:id="@+id/nav_mostrar_usuarios"
+            android:icon="@drawable/ic_list"
+            android:title="Mostrar Todos" />
+        <item
+            android:id="@+id/nav_buscar_usuario"
+            android:icon="@drawable/ic_find"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_actualizar_usuario"
+            android:icon="@drawable/ic_update"
+            android:title="Actualizar" />
+        <item
+            android:id="@+id/nav_eliminar_usuario"
+            android:icon="@drawable/ic_delete"
+            android:title="Eliminar" />
+    </menu>
+    </item>
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_logout"
+                android:title="Salir"/>
+        </menu>
+    </item>
+</menu>
